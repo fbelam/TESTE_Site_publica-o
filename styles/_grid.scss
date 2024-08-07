@@ -1,0 +1,16 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(7, 252px);
+}
+
+.column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item {
+    width: 100%;
+    height: 350%;
+}
