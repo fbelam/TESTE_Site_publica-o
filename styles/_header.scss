@@ -1,0 +1,55 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px 15px 25px;
+
+    h3{
+        color: red;
+        font-size: 20px;
+        font-weight: 700;
+        
+    }
+    nav {
+        display: flex;
+        align-items: center;
+
+        ul{
+            li{
+                a{
+                    text-decoration: none;
+                    font-size: 16px;
+                    color: black;
+                    font-weight: 700;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        .buttons {
+            display: flex;
+            margin-left: 24px;
+
+            button{
+                font-size: 16px;
+                font-weight: 700;
+                padding: 11px 12px;
+                border-radius: 24px;
+                border: none;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .login {
+                color: white;
+                background: red;
+            }
+            .sign-up {
+                margin-top: 16px;
+                background-color: gray;
+            }
+        }
+    }
+}
